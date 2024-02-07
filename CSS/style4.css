@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;    
+}
+.title 
+{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: lightgrey;
+  
+}
+.link {
+    
+    padding: 10px;
+    background-color: gray;
+    border: 10px solid none;
+}
+.link a 
+{
+    padding: 10px;
+    text-decoration: none;
+}
+.link a:hover {
+    color: white;
+    background-color: black;
+}
+.main-body .left-body1 {
+    float: left;
+    width: 65%;
+    border: 1px solid;
+    min-height: 450px
+}
+.main-body .left-body1 button{
+    margin-top: 10px;
+    padding: 8px;
+}
+.main-body .left-body1 h3 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.main-body .left-body1 p {
+    text-align: justify;
+}
+.main-body .right-body {
+    float: right;
+    width: 34.5%;
+    border: 1px solid;
+    min-height: 450px;
+}
+.main-body .right-body h3{
+    padding: 10px;
+}
+.main-body .right-body h4{
+    padding: 10px;
+}

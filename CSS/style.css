@@ -1,0 +1,76 @@
+*
+{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+.main-body-div .left-div {
+    float: left;
+    width: 72%;
+    text-align: justify;
+    background-color: lightgrey;
+}
+.main-body-div .right-div {
+    float: right;
+    width: 22%;
+    background-color: lightcoral;
+}
+.header-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: large;
+}
+.header-div h3 {
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.menu-div {
+    width: auto;
+    min-height: 50px;
+    background-color: rgb(187, 167, 167);
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.menu-div a {
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.menu-div a:hover {
+    background-color: green;
+    color: white;
+    
+}
+.slider {
+    width: 100%;
+    min-height: 160px;
+    background-color: lightslategray;
+    margin-top: 10px;
+    color: white;
+}
+.footer {
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer {
+    width:100%;
+    min-height: 50px;
+    background-color: gainsboro;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.main-body-div .left-div h2 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
