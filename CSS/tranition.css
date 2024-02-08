@@ -9,12 +9,36 @@
     aspect-ratio: 1/2;
     border: 1px solid #000;
     background-color: cadetblue;
-    margin: 30px auto;
-    transition: 10s;
+    margin: 30px;
+    margin-left: 200px;
+    transition: 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    float: left;
 }
 .main img {
     width: 100%;
 }
 .main:hover {
     transform: rotateZ(180deg);
+    border-radius: 20%;
+}
+.box{
+    width: 200px;
+    aspect-ratio: 1;
+    border: 1px solid #000;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    margin: 60px 200px;
+}
+.box button{
+    width: 40%;
+    height: 20%;
+    transition: background-color 2s, transform 0.8s;
+}
+.box button:hover {
+    background-color: burlywood;
+    transform: scaleX(1.5);
 }
